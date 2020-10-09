@@ -17,14 +17,20 @@ void mousePressed(int pantallaActual, int pantallaSiguiente) {
     }
   }
 
+void cargarBotones() {
 
-botones[1][0][0] = 50;
-botones[1][0][1] = 250;
-botones [1][0][2] = 512;
-botones[1][0][3] = 587;
+int [] botones1 = {50,250,512,587};
+int [] botones2 ={550,750,475,625};
 
-botones[1][1][0] = 550;
-botones[1][1][1] = 750;
-botones [1][1][2] = 475;
-botones[1][1][3] = 625;
+
+botones[1][0] = botones1;
+botones[1][1]=botones2;
+botones[6][0] = botones1;
+botones[6][1]=botones2;
+botones[9][0] = botones1;
+botones[9][1]=botones2;
+botones[14][0] = botones1;
+botones[14][1]=botones2;
+botones[18][0] = botones1;
+botones[18][1]=botones2;
 }
